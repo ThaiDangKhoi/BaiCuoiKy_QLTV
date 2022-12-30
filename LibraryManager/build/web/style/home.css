@@ -1,0 +1,226 @@
+/* body */
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* container */
+.container{
+    background-color: aquamarine;
+}
+
+/* navbar */
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.search{
+    position: absolute;
+    padding-bottom: 20px;
+    width: 50%;
+    right: calc(200px + 20px);
+    background-color: azure;
+}
+
+.search input{
+    width: calc(99% - 20px);
+    padding-left: 20px;
+}
+
+#txtSearch{
+    position: absolute;
+    top: -5px !important;
+    background-color: aqua;
+    height: 30px;
+}
+
+/* footer */
+.footer{
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* icon */
+.icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+/* home-icon */
+.home-icon{
+    padding-bottom: 10px;
+    background-image: url("../res/icon/home.png");
+}
+
+/* user-icon */
+.user-icon{
+    background-image: url("../res/icon/user.png");
+}
+
+/* inline-block */
+.inline-block{
+    display: inline-block;
+}
+
+/* user */
+.user{
+    position: absolute;
+    right: 20px;
+}
+/* user area */
+.user-area{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    right: 100px;
+    background-color: rgb(0, 230, 255);
+    display: none;
+    z-index: 1;
+    padding-right: 20px;
+}
+
+.user-area ul{
+    list-style: none;
+}
+
+.user-area ul a{
+    text-decoration: none;
+}
+
+.user-area ul li{
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.user-area ul li:hover{
+    background-color: rgb(12, 230, 120);
+    font-weight: bold;
+}
+/* Menu */
+.menu{
+    position: absolute;
+    width: 20%;
+    height: 90%;
+    background-color: rgb(12, 230, 120);
+}
+
+/* sub-content */
+.sub-content{
+    margin: 10px;
+    position: absolute;
+    width: calc(80% - 20px);
+    left: 20%;
+}
+
+/* Product */
+/* image */
+img{
+    width: 100px;
+    height: 130px;
+}
+
+.product{
+    position: relative;
+    width: 120px;
+    height: 200px;
+}
+
+.imgProduct{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imgProduct:hover{
+    cursor: pointer;
+}
+
+.name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+/* banner */
+#banner{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 50px;
+    /* margin-right: ; */
+}
+
+/* title */
+.title{
+    padding-left: 70px;
+    font-weight: bold;
+}
+
+/* product info */
+.product-info{
+    position: fixed;
+    background-color: rgb(12, 230, 120);
+    left: 30%;
+    top: 15%;
+    right: 20%;
+    width: 50%;
+    height: 80%;
+    display: none;
+    z-index: 1;
+}
+
+.info{
+    position: absolute;
+    width: 50%;
+    height: calc(100% - 25%);
+    background-color: rgb(183, 226, 226);
+    font-size: 1.5rem;
+    margin-right: 10%;
+    padding: 10%;
+}
+
+.photo{
+    position: absolute;
+    width: 30%;
+    right: 0;
+    height: 100%;
+    background-color: rgb(130, 235, 235);
+}
+
+.book{
+    width: 100%;
+    height: auto;
+}
+
+
+/* product info close icon */
+.info-close{
+    background-image: url("../res/icon/close.png");
+    position: absolute;
+    z-index: 2;
+    right: -10px;
+    top: -10px;
+}
+
+/* btnBorrow */
+#btnBorrow{
+    display: block;
+    position: absolute;
+    left: 40%;
+    bottom: 1%;
+    cursor: pointer;
+}
